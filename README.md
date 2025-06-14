@@ -62,18 +62,20 @@ You’ll use an editor to write and modify your code. We'll use VS Code here.
 
 ## Summary of collaboration workflow
 
+A typical GitHub collaboration workflow involves one developer creating a branch, making changes, and opening a pull request (PR). Another developer reviews the PR, may request changes, and after any revisions, approves and merges the updates. This process helps ensure all code is reviewed and improved before being merged into the main branch.
+
 ```
 dev-A         dev-B
-  |             |
-  |-> create branch
-  |             |
-  |-> make changes
-  |-> push + PR |
-  |             |-> review PR
-  |             |-> request changes
-  |<- rework    |
-  |-> update PR |
-  |             |-> approve + merge
+    |             |
+    |-> create branch
+    |             |
+    |-> make changes
+    |-> push + PR |
+    |             |-> review PR
+    |             |-> request changes
+    |<- rework    |
+    |-> update PR |
+    |             |-> approve + merge
 ```
 
 ## Initial setup
