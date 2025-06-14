@@ -43,12 +43,31 @@ git --version
 
 #### Configure Git identity
 
+This step is required once per computer to identify your code commits.
+
 > [!NOTE]
-> This step is required once per computer to identify your code commits to local and remote repos.
+> To keep your email address private in all Git commits, configure both your GitHub account and your local Git settings.
+
+1. Go to **GitHub > Settings > Emails**
+2. Check **Keep my email address private**
+    - This replaces your real email with a `@users.noreply.github.com` address in web-based GitHub actions.
+3. Check **Block command line pushes that expose my email**  
+    - This prevents accidental pushes with your real email.
+
+3. Set your global Git username and email address:
+
+> [!TIP]
+> Find your unique noreply email address in your GitHub email settings under the **Not visible in emails** bullet after setting the above options.
 
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+git config --global user.email "Your GitHub-provided noreply address"
+```
+
+List Git config to see your name, email, and other Git settings:
+
+```
+git config --list
 ```
 
 ### 3. Text editor
