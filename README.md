@@ -83,12 +83,13 @@ You’ll use an editor to write and modify your code. We'll use VS Code here.
 | Create a repo | GitHub Web | Create a project workspace |
 | Clone a repo | `git clone <URL>` | Copy repo to your computer |
 | Check current status | `git status` | Show changes and branch info |
-| Create branch | `git checkout -b feature/xyz` | Start isolated work |
-| Stage changes | `git add .` | Mark files for commit |
-| Commit changes | `git commit -m "desc"` | Save your work snapshot |
+| Download remote changes | `git fetch` | Retrieve remote changes for review without merge to local branches |
+| Merge main into branch | `git merge main` | Update feature branch with main changes |
+| Pull main updates | `git pull origin main` | Sync latest remote code with local |
+| Create branch | `git checkout -b <feature/xyz>` | Start isolated work |
+| Stage changes | `git add .`, `git add <file>` | Mark files for commit |
+| Commit changes | `git commit -m "Commit message"` | Save your work locally |
 | Push branch | `git push -u origin feature/xyz` | Upload branch to GitHub |
-| Pull main updates | `git pull origin main` | Sync with latest code |
-| Merge main into branch | `git merge main` | Update feature branch |
 | Submit pull request | GitHub Web | Ask for review |
 | Review pull request | GitHub Web | Approve or request changes |
 | Merge pull request | GitHub Web | Add changes to main |
