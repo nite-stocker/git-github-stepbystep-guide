@@ -1,12 +1,12 @@
 # Git and GitHub collaboration guide
 
-This repository provides a practical guide for collaborating using GitHub. It walks through repository setup, branching, committing, syncing, pull requests, code review, protected branches, and merging workflows using Git CLI and GitHub web interfaces.
+Use this guide to collaborate effectively on GitHub projects. It walks through setup, branching, making commits, syncing changes, submitting pull requests, code review, branch protection, and merging–using both Git CLI and the GitHub web interface.
 
 ## Table of contents
 
 - [Requirements](#requirements)
 - [Summary of core Git concepts](#summary-of-core-git-concepts)
-- [Collaboration workflow summary](#collaboration-workflow-summary)
+- [Summary of collaboration workflow](#summary-collaboration-workflow)
 - [Initial setup](#initial-setup)
 - [Making and tracking code changes](#making-and-tracking-code-changes)
 - [Syncing with main](#syncing-with-main)
@@ -60,7 +60,7 @@ You’ll use an editor to write and modify your code. We'll use VS Code here.
 | Review pull request | GitHub Web | Approve or request changes |
 | Merge pull request | GitHub Web | Add changes to main |
 
-## Collaboration workflow summary
+## Summary of collaboration workflow
 
 ```
 dev-A         dev-B
