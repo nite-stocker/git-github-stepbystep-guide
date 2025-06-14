@@ -21,6 +21,8 @@ Use this guide to collaborate effectively on GitHub projects. It walks through s
 
 ## Requirements
 
+Before you start collaborating on GitHub projects, make sure you have the following tools installed and a GitHub account set up.
+
 ### 1. GitHub account
 
 You’ll need a GitHub account to host repositories, collaborate, and use GitHub Desktop.
@@ -29,12 +31,24 @@ Create an account at [github.com/join](https://github.com/join).
 
 ### 2. Git CLI (Command Line)
 
+#### Install Git
+
 If you don't already have Git installed, download it from [git-scm.com/downloads](https://git-scm.com/downloads).
 
 To verify installation, run in your Terminal app:
 
 ```bash
 git --version
+```
+
+#### Configure Git identity
+
+> [!NOTE]
+> This step is required once per computer to identify your code commits to local and remote repos.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ```
 
 ### 3. Text editor
@@ -48,8 +62,8 @@ You’ll use an editor to write and modify your code. We'll use VS Code here.
 | Action | Git CLI | Description |
 |-|-|-|
 | Create a repo | GitHub Web | Create a project workspace |
-| Clone a repo | `git clone <URL>` | Copy a remote repo to your computer |
-| Check current status | `git status` | View file changes, branch, and staging state |
+| Clone a repo | `git clone <URL>` | Copy repo to your computer |
+| Check current status | `git status` | Show changes and branch info |
 | Create branch | `git checkout -b feature/xyz` | Start isolated work |
 | Stage changes | `git add .` | Mark files for commit |
 | Commit changes | `git commit -m "desc"` | Save your work snapshot |
@@ -102,16 +116,6 @@ In your Terminal app, change to a folder to hold your GitHub repos. Then run:
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-```
-
-### 3. Configure Git identity
-
-> [!NOTE]
-> This step is required once per computer to identify your code commits to local and remote repos.
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
 ```
 
 ## Making and tracking code changes
