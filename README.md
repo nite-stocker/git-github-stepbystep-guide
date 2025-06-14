@@ -126,7 +126,7 @@ dev-A         dev-B
 
 ### 2. Clone the repository to your computer
 
-On your repo page:
+On your GitHub repo page:
 1. Click **Code**
 2. Select the **Local** > **HTTPS** tab
 3. Copy the URL
@@ -142,12 +142,12 @@ cd <repo-name>
 
 ### 1. Create a new branch
 
-Create a new branch to add features or make changes.
+Create a new branch to add a feature:
 
 ```
 git checkout -b feature/my-feature
 ```
-…or for a change…
+…or to make a changes…
 
 ```
 git checkout -b change/my-change
@@ -171,7 +171,7 @@ git status
 
 Example Output:
 ```
-On branch feature/my-change
+On branch change/my-change
 Changes not staged for commit:
   modified: script.py
 
@@ -191,12 +191,13 @@ Untracked files:
 - Write commit messages with present tense. For example: Add, not Added.
 
 ```
+git status
 git add .
 git status
 git commit -m "Add: implemented feature X"
 ```
 
-Example Output:
+Example `git status` output:
 ```
 [feature/my-feature 123abcd] Add: implemented feature X
  1 file changed, 20 insertions(+)
