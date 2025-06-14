@@ -203,16 +203,6 @@ Example `git status` output:
  1 file changed, 20 insertions(+)
 ```
 
-## Push your branch
-
-Pushing your branch uploads your local commits to the remote repository on GitHub, making your changes visible to collaborators and enabling you to open a pull request.
-
-The `-u` flag sets the upstream branch, so future `git push` and `git pull` commands will default to this branch.
-
-```
-git push -u origin feature/my-feature
-```
-
 ## Sync your feature branch with the main branch
 
 Before you push your feature branch and open a pull request, it's best practice to sync your branch with the latest changes from `main`. This helps prevent merge conflicts and ensures your work is compatible with the most recent codebase. Pull the latest changes from `main` into your feature branch, resolve any conflicts, and test your updates.
@@ -225,7 +215,17 @@ git merge main
 git status
 ```
 
-## Opening a pull request
+## Push your branch
+
+Pushing your branch uploads your local commits to the remote repository on GitHub, making your changes visible to collaborators and enabling you to open a pull request.
+
+The `-u` flag sets the upstream branch, so future `git push` and `git pull` commands will default to this branch.
+
+```
+git push -u origin feature/my-feature
+```
+
+## Open a pull request for code review
 
 A pull request, or PR, is a way to propose changes you've made in your branch to be merged into another branch (usually the main branch) of a repository. It allows others to review your code, discuss improvements, and approve or request changes before the code becomes part of the main project.
 
