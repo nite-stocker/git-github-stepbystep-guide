@@ -203,10 +203,14 @@ Example `git status` output:
  1 file changed, 20 insertions(+)
 ```
 
-### 5. Push your branch
+## Push your branch
+
+Pushing your branch uploads your local commits to the remote repository on GitHub, making your changes visible to collaborators and enabling you to open a pull request.
+
+The `-u` flag sets the upstream branch, so future `git push` and `git pull` commands will default to this branch.
 
 ```
-git push -u origin feature/my-change
+git push -u origin feature/my-feature
 ```
 
 ## Sync your feature branch with the main branch
