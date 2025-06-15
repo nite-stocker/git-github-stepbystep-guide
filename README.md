@@ -285,7 +285,7 @@ Branch protection rules help enforce collaboration best practices by requiring c
 
 ## Keeping your local repo updated
 
-Keeping your local repository synchronized with the remote repository ensures you have the latest changes from collaborators and helps prevent merge conflicts. Regularly pull updates from the remote, resolve any conflicts promptly, and verify that your local changes are compatible with the most recent commits.
+Keeping your local repository synced with the remote repo ensures you have the latest changes from collaborators and helps prevent merge conflicts. Regularly pull updates from the remote, resolve any conflicts, and verify that your local changes are compatible with the most recent commits.
 
 ```
 git checkout main
