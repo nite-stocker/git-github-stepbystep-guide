@@ -283,9 +283,10 @@ Branch protection rules help enforce collaboration best practices by requiring c
    - [✓] (Optional) Require linear history
 4. Click **Create**
 
-## Keeping Your Local Repo Updated
+## Keeping your local repo updated
 
-#### Using Git CLI
+Keeping your local repository synchronized with the remote repository ensures you have the latest changes from collaborators and helps prevent merge conflicts. Regularly pull updates from the remote, resolve any conflicts promptly, and verify that your local changes are compatible with the most recent commits.
+
 ```
 git checkout main
 git pull origin main
