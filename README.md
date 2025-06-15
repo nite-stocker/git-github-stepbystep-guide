@@ -250,7 +250,7 @@ Pull requests must be created using the GitHub web interface. This ensures all r
 4. Leave a constructive comment
 5. Click **Approve** > **Submit review**
 
-### Requesting Changes
+### Requesting changes
 
 1. Click on a line of code
 2. Leave a constructive comment
@@ -259,7 +259,7 @@ Pull requests must be created using the GitHub web interface. This ensures all r
 > [!IMPORTANT]
 > The PR cannot be merged until all requested changes are resolved.
 
-## Merging a Pull Request
+## Merging a pull pequest
 
 > [!IMPORTANT]
 > Only merge a PR after it’s been approved by a reviewer.
@@ -283,9 +283,8 @@ Branch protection rules help enforce collaboration best practices by requiring c
    - [✓] (Optional) Require linear history
 4. Click **Create**
 
-## Keeping Your Local Repo Updated
+## Keeping your local repo updated
 
-#### Using Git CLI
 ```
 git checkout main
 git pull origin main
