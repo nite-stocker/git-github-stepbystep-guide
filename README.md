@@ -242,6 +242,8 @@ Pull requests must be created using the GitHub web interface. This ensures all r
 
 ## Code review: Approve or request changes
 
+During code review, collaborators examine the proposed changes in a pull request to ensure code quality, correctness, and alignment with project standards. Reviewers can either approve the changes if they meet requirements or request modifications if improvements are needed.
+
 ### Approving a pull request
 
 1. Navigate to the PR
